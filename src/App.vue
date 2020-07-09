@@ -137,7 +137,7 @@ export default {
     },
     logOut() {
       this.unsetToken()
-      this.$router.push({ path: '/'})
+      this.$router.go()
     }
   }
 };
